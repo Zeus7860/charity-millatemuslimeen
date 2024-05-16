@@ -46,7 +46,14 @@ function openPopup() {
 function closePopup() {
     document.querySelector('.popup-overlay').style.display = 'none';
 }
-function payWithUPI() {
-    var upiPaymentUrl = 'upi://pay?pa=UPIID@oksbi&pn=JOHN BRITAS AK&cu=INR';
-    window.location.href = upiPaymentUrl;
+
+function copyUPI() {
+    var upiId = '8591699890@kotak';
+    var tempInput = document.createElement('input');
+    tempInput.value = upiId;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand('copy');
+    document.body.removeChild(tempInput);
+    alert('UPI ID copied to clipboard: ' + upiId);
 }
