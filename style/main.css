@@ -802,15 +802,15 @@ svg path {
 }
 
 #full-slide .banner li:nth-child(1) {
-	background-image: url("assets/img/full-slide/thumb1.jpg")
+	background-image: url("/assets/img/full-slide/thumb1.jpg")
 }
 
 #full-slide .banner li:nth-child(2) {
-	background-image: url("assets/img/full-slide/thumb2.jpg")
+	background-image: url("/assets/img/full-slide/thumb2.jpg")
 }
 
 #full-slide .banner li:nth-child(3) {
-	background-image: url("assets/img/full-slide/thumb3.jpg")
+	background-image: url("/assets/img/full-slide/thumb3.jpg")
 }
 
 #full-slide i {
