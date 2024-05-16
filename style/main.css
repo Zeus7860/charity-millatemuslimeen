@@ -1324,3 +1324,32 @@ svg path {
 	font-family: "Raleway", Helvetica, sans-serif;
 	font-size: 12px
 }
+
+@media (max-width: 767px) {
+    #contact {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 15px auto;
+    }
+
+    #contact .wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #contact .wrapper .blurb {
+        max-width: 90%;
+        margin-top: -30px;
+    }
+
+    #contact .wrapper form {
+        max-width: 90%;
+    }
+
+    #contact .wrapper form input[type="email"],
+    #contact .wrapper form input[type="text"],
+    #contact .wrapper form textarea {
+        width: 100%;
+    }
+}
