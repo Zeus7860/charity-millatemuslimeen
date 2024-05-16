@@ -102,6 +102,16 @@ input::-moz-focus-inner {
     z-index: 20; /* Adjust z-index as needed */
 	align-self: center;
 }
+@media screen and (max-width: 767px) {
+    /* For screens smaller than 768px (typically mobile devices) */
+    .donation-wrapper {
+        top: 10px; /* Adjust top position for mobile */
+        right: 0;
+        left: 0;
+        text-align: center;
+        transform: none;
+    }
+}
 
 .popup-overlay {
     display: none;
@@ -147,7 +157,7 @@ input::-moz-focus-inner {
 	outline: none;
   }
   
-.btn-donation {
+.btn-donation , .btn-upi {
 	border: none;
 	background: rgb(36, 251, 83);
 	  background: linear-gradient(0deg, rgb(138, 244, 152) 0%, rgb(16, 240, 76) 100%);

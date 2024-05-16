@@ -46,3 +46,7 @@ function openPopup() {
 function closePopup() {
     document.querySelector('.popup-overlay').style.display = 'none';
 }
+function payWithUPI() {
+    var upiPaymentUrl = 'upi://pay?pa=UPIID@oksbi&pn=JOHN BRITAS AK&cu=INR';
+    window.location.href = upiPaymentUrl;
+}
