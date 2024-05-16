@@ -449,6 +449,7 @@ svg path {
 }
 
 #hero header {
+	top: 5rem;
 	position: absolute;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
